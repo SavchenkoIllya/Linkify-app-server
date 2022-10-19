@@ -1,0 +1,32 @@
+{
+  "name": "linkify",
+  "version": "1.0.0",
+  "description": "Iconify project server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "^16.0.1",
+    "express": "*",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "*",
+    "link-preview-js": "^3.0.3",
+    "mongoose": "*",
+    "morgan": "^1.10.0",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "valid-url": "^1.0.9"
+  },
+  "keywords": [
+    "linkify"
+  ],
+  "type": "module",
+  "author": " <Savchenko Illya>",
+  "license": "ISC"
+}
